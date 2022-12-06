@@ -276,7 +276,7 @@ white-space: unset;
 }
 .nav-link:hover {
   color: #754ffe;
-  border: none;
+  
 }
 
 .heading2{
@@ -333,7 +333,7 @@ white-space: unset;
   color: #754ffe;
 }
 .nav-lb-tab .nav-item .nav-link {
-  border-bottom: 2px solid transparent;
+  border: 0;
   border-radius: 0;
   color: #79758f;
   font-weight: 500;
@@ -465,4 +465,7 @@ white-space: unset;
   height: 3.5rem;
   line-height: 3.5rem;
   width: 3.5rem;
+}
+.fs-6 {
+  font-size: .75rem!important;
 }

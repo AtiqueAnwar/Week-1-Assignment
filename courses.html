@@ -488,25 +488,27 @@
           <div class="row">
             <div class="mt-n8 mb-4 mb-lg-0 col-lg-8 col-md-12 col-sm-12">
               <div class="card">
-                <div class="nav-lb-tab nav" role="tablist">
-                  <div class="nav-item">
-                    <a href="#contents" class="nav-link active" data-bs-toggle="tab">Contents</a></div>
-                  <div class="nav-item"> 
-                    <a href="#description" class="nav-link" data-bs-toggle="tab">Description</a></div>
-                  <div class="nav-item">
-                    <a href="#reviews" class="nav-link" data-bs-toggle="tab">Reviews</a>
-                    </div>
-                  <div class="nav-item"> 
-                    <a href="#transcript" class="nav-link" data-bs-toggle="tab">Transcript</a>
-                  </div>
-                  <div class="nav-item">
-                    <a href="#faq" class="nav-link" data-bs-toggle="tab">FAQ</a>
-                  </div>
-                </div>
+                <ul class="nav-lb-tab nav" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="contents-tab" data-bs-toggle="tab" data-bs-target="#contents" type="button" role="tab" aria-controls="contents" aria-selected="true">Contents</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="description-tab" data-bs-toggle="tab" data-bs-target="#description" type="button" role="tab" aria-controls="description" aria-selected="false">Description</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews" type="button" role="tab" aria-controls="reviews" aria-selected="false">Reviews</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="transcript-tab" data-bs-toggle="tab" data-bs-target="#transcript" type="button" role="tab" aria-controls="transcript" aria-selected="false">Transcript</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="faq-tab" data-bs-toggle="tab" data-bs-target="#faq" type="button" role="tab" aria-controls="faq" aria-selected="false">FAQ</button>
+                  </li>
+                </ul>
+
                 <div class="p-0 card-body">
-                  <div class="tab-content">
-                    <div role="tabpanel" id="contents" aria-labelledby="contents"
-                    class="fade pb-4 pt-3 px-4 tab-pane active show">
+                  <div class="tab-content" id="myTabContent" >
+                    <div role="tabpanel" id="contents" aria-labelledby="contents-tab" class="pb-4 pt-3 px-4 tab-pane fade show active">
                       <div class="accordion">
                         <ul class="list-group list-group-flush">
                           <li class="px-0 list-group-item"><a aria-expanded="true"
@@ -1310,9 +1312,9 @@
                         </ul>
                       </div>
                     </div>
-                    <div role="tabpanel" id="description" aria-labelledby="tab-description" class="fade pb-4 p-4 tab-pane">
+                    <div role="tabpanel" id="description" aria-labelledby="description" class="fade pb-4 p-4 tab-pane">
                       <div class="mb-4">
-                        <h3 class="mb-2">Course Descriptions</h3>
+                        <h5 class="mb-2">Course Descriptions</h5>
                         <p>If you’re learning to program for the first time, or if you’re coming from a different language,
                           this course, JavaScript: Getting Started, will give you the basics for coding in JavaScript. First,
                           you'll discover the types of applications that can be built with JavaScript, and the platforms
@@ -1322,7 +1324,7 @@
                           this course, you’ll have the skills and knowledge in JavaScript to create simple programs, create
                           simple web applications, and modify web pages.</p>
                       </div>
-                      <h4 class="mb-3">What you’ll learn</h4>
+                      <h6 class="mb-3">What you’ll learn</h6>
                       <div class="mb-3 row">
                         <div class="col-lg-6 col-md-6 col-sm-12">
                           <div class="list-unstyled list-unstyled-flush">
@@ -1353,12 +1355,12 @@
                       <p>Duis facilisis ex a urna blandit ultricies. Nullam sagittis ligula non eros semper, nec mattis odio
                         ullamcorper. Phasellus feugiat sit amet leo eget consectetur.</p>
                     </div> 
-                    <div role="tabpanel" id="reviews" aria-labelledby="tab-reviews" class="fade pb-4 p-4 tab-pane">
+                    <div role="tabpanel" id="reviews" aria-labelledby="reviews-tab" class="fade pb-4 p-4 tab-pane">
                       <div class="mb-3">
-                        <h3 class="mb-4">How students rated this courses</h3>
+                        <h5 class="mb-4">How students rated this courses</h5>
                         <div class="align-items-center row">
                           <div class="text-center col-auto">
-                            <h3 class="display-2 fw-bold">4.5</h3><span class="text-warning"><svg viewBox="0 0 24 24"
+                            <h3 class="display-4 fw-bold">4.5</h3><span class="text-warning"><svg viewBox="0 0 24 24"
                                 role="presentation" style="width: 0.875rem; height: 0.875rem;">
                                 <path
                                   d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
@@ -1535,7 +1537,7 @@
                         <div class="d-flex border-bottom pb-4 mb-4"><img src="Assets/Images/p3.jpg" alt=""
                             class="rounded-circle avatar-lg" width="56px" height="56px">
                           <div class=" ms-3">
-                            <h4 class="mb-1">Max Hawkins<span class="ms-1 fs-6 text-muted">2 Days ago</span></h4>
+                            <h6 class="mb-1">Max Hawkins<span class="ms-1 fs-6 text-muted">2 Days ago</span></h6>
                             <div class="fs-6 mb-2 text-warning"><svg viewBox="0 0 24 24" role="presentation"
                                 style="width: 0.875rem; height: 0.875rem;">
                                 <path
@@ -1572,7 +1574,7 @@
                         <div class="d-flex border-bottom pb-4 mb-4"><img src="Assets/Images/p7.jpg" alt=""
                             class="rounded-circle avatar-lg" width="56px" height="56px">
                           <div class=" ms-3">
-                            <h4 class="mb-1">Max Hawkins<span class="ms-1 fs-6 text-muted">2 Days ago</span></h4>
+                            <h6 class="mb-1">Max Hawkins<span class="ms-1 fs-6 text-muted">2 Days ago</span></h6>
                             <div class="fs-6 mb-2 text-warning"><svg viewBox="0 0 24 24" role="presentation"
                                 style="width: 0.875rem; height: 0.875rem;">
                                 <path
@@ -1608,11 +1610,11 @@
                         </div>
                       </div>
                     </div>
-                    <div role="tabpanel" id="transcript" aria-labelledby="tab-transcript" class="fade pb-4 p-4 tab-pane">
-                      <h3 class="mb-3">Transcript from the "Introduction" Lesson</h3>
+                    <div role="tabpanel" id="transcript" aria-labelledby="transcript-tab" class="fade pb-4 p-4 tab-pane">
+                      <h5 class="mb-3">Transcript from the "Introduction" Lesson</h5>
                       <div class="mb-4">
-                        <h4>Course Overview <a class="text-primary ms-2 h4"
-                            href="#">[00:00:00]</a></h4>
+                        <h6>Course Overview <a class="text-primary ms-2"
+                            href="#">[00:00:00]</a></h6>
                         <div>
                           <p class="mb-0">My name is John Deo and I work as human duct tape at Gatsby,
                             that means that I do a lot of different things. Everything from dev roll to writing
@@ -1621,8 +1623,8 @@
                         </div>
                       </div>
                       <div class="mb-4">
-                        <h4>Introduction <a class="text-primary ms-2 h4"
-                            href="#">[00:00:16]</a></h4>
+                        <h6>Introduction <a class="text-primary ms-2 h6"
+                            href="#">[00:00:16]</a></h6>
                         <div>
                           <p>We'll dive into GraphQL, the fundamentals of GraphQL.
                             We're only gonna use the pieces of it that we need to build in Gatsby.
@@ -1631,8 +1633,8 @@
                         </div>
                       </div>
                       <div class="mb-4">
-                        <h4>Why Take This Course? <a class="text-primary ms-2 h4"
-                            href="#">[00:00:37]</a></h4>
+                        <h6>Why Take This Course? <a class="text-primary ms-2 h6"
+                            href="#">[00:00:37]</a></h6>
                         <div>
                           <p> We'll dive into GraphQL, the fundamentals of GraphQL.
                             We're only gonna use the pieces of it that we need to build in Gatsby.
@@ -1641,8 +1643,8 @@
                         </div>
                       </div>
                       <div class="mb-4">
-                        <h4>A Look at the Demo Application <a class="text-primary ms-2 h4"
-                            href="#">[00:00:54]</a></h4>
+                        <h6>A Look at the Demo Application <a class="text-primary ms-2 h6"
+                            href="#">[00:00:54]</a></h6>
                         <div>
                           <p>We'll dive into GraphQL, the fundamentals of GraphQL.
                             We're only gonna use the pieces of it that we need to build in Gatsby.
@@ -1655,8 +1657,8 @@
                         </div>
                       </div>
                       <div class="mb-4">
-                        <h4>Summary <a class="text-primary ms-2 h4"
-                            href="#">[00:01:31]</a></h4>
+                        <h6>Summary <a class="text-primary ms-2 h6"
+                            href="#">[00:01:31]</a></h6>
                         <div>
                           <p> We'll dive into GraphQL, the fundamentals of GraphQL.
                             We're only gonna use the pieces of it that we need to build in Gatsby.
@@ -1665,9 +1667,9 @@
                         </div>
                       </div>
                     </div>
-                    <div role="tabpanel" id="faq" aria-labelledby="tab-faq" class="fade pb-4 p-4 tab-pane">
+                    <div role="tabpanel" id="faq" aria-labelledby="faq-tab" class="fade pb-4 p-4 tab-pane">
                       <div class="mb-4">
-                        <h4>How this course help me to design layout?</h4>
+                        <h6>How this course help me to design layout?</h6>
                         <div>
                           <p>My name is Jason Woo and I work as human duct tape at Gatsby,
                             that means that I do a lot of different things. Everything from dev
@@ -1676,7 +1678,7 @@
                         </div>
                       </div>
                       <div class="mb-4">
-                        <h4>What is important of this course?</h4>
+                        <h6>What is important of this course?</h6>
                         <div>
                           <p>We'll dive into GraphQL, the fundamentals of GraphQL.
                             We're only gonna use the pieces of it that we need to build in Gatsby.
@@ -1685,7 +1687,7 @@
                         </div>
                       </div>
                       <div class="mb-4">
-                        <h4>Why Take This Course?</h4>
+                        <h6>Why Take This Course?</h6>
                         <div>
                           <p>We'll dive into GraphQL, the fundamentals of GraphQL.
                             We're only gonna use the pieces of it that we need to build in Gatsby.
@@ -1694,7 +1696,7 @@
                         </div>
                       </div>
                       <div class="mb-4">
-                        <h4>Is able to create application after this course?</h4>
+                        <h6>Is able to create application after this course?</h6>
                         <div>
                           <p>
                             We'll dive into GraphQL, the fundamentals of GraphQL. We're only gonna use the pieces of it
@@ -1732,7 +1734,7 @@
               </div>
               <div class="mb-4 card">
                 <div class="card-header">
-                  <h4 class="heading3 mb-0">What’s included</h4>
+                  <h6 class="heading3 mb-0">What’s included</h6>
                 </div>
                 <div class="p-0 card-body">
                   <div class="list-group list-group-flush">
