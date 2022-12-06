@@ -1,0 +1,209 @@
+/* bODY  */
+body {
+  background-color: rgb(245, 244, 248);
+  font-family: 'Inter', sans-serif;
+}
+
+
+/* .navbar-light .navbar-nav .nav-link {
+  color: #18113c !important;
+} */
+.navbar-default .navbar-nav .nav-item .nav-link {
+  color: #18113c;
+  font-size: .875rem;
+  font-weight: 500;
+  padding: .3125rem .5rem;
+}
+
+/* below header icons*/
+#text {
+  margin-right: 15px;
+  font-size: initial;
+  width: 48px;
+  height: 48px;
+  background-color: #ffeeda;
+  color: #c88335;
+  position: relative;
+  bottom: 8px;
+}
+
+/* navbar dropdown menu */
+.dropdown-menu-end {
+  --bs-position: end;
+  right: 10px;
+}
+
+/* dropdown menu and submenu hovers */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu a:hover {
+  color: #754ffe;
+}
+
+.dropdown:hover .dropdown-submenu {
+  display: none;
+}
+
+/* cards avatar */
+#tutor {
+  height: 30px;
+  width: 30px;
+}
+
+/* Cards Div */
+.card {
+  border-radius: 10px;
+}
+
+.card-body {
+  color: var(--bs-card-color);
+  flex: 1 1 auto;
+  padding: 1.5rem 1.5rem;
+}
+.card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #666377;
+}
+
+/* Inline List */
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+  color: #5c5776;
+  font-size: 14px;
+}
+.fs-6 {
+  font-size: 0.8rem !important;
+}
+.text-muted {
+  color: #a8a3b9 !important;
+}
+
+/* Footer Div */
+.class-footer {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  color: #757383;
+}
+.nav-footer .nav-link {
+  color: #5c5776;
+}
+
+/* Search Form */
+.form-control:focus {
+  border-color: #754ffe;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #754ffe;
+}
+/* Online Status */
+.status-circle-online {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #19cb98;
+  border: 2px solid white;
+  bottom: 8px;
+  right: 10px;
+  position: absolute;
+}
+/* Notications Status */
+.btn-light:hover {
+  background-color: #d0cfd3 !important;
+}
+.btn-light {
+  font-size: 14px;
+}
+.status-circle-notify {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+
+  border: 2px solid white;
+  bottom: 33px;
+  right: 16px;
+  position: absolute;
+
+  background-color: #754ffe;
+}
+
+/* Form Adjustment */
+#formSearch {
+  width: 262px;
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  height: 49px;
+  position: relative;
+  left: 20px;
+}
+
+/* Main Nav Adjustment */
+#mainNav {
+  height: 66px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.nav-link {
+  color: #79758f;
+}
+.nav-link:hover {
+  color: #754ffe;
+  border: none;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #754ffe;
+  background-color: #ffffff;
+  border-color: #ffffff #ffffff #754ffe;
+}
+.nav-tabs .nav-link {
+  margin-bottom: -1px;
+  background: 0 0;
+  border: 2px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+#navbarSupportedContent {
+  padding-left: 8px;
+}
+/* Video Play Button */
+.btn-play {
+  background-color: #fff;
+  color: #754ffe;
+  transition: 0.2s ease;
+}
+
+.btn-play:hover {
+  background-color: #754ffe;
+  color: #ffeeda;
+}
+/* Primary Button Adjustment */
+.btn-primary {
+  color: #fff;
+  background-color: #754ffe !important;
+  border-color: #754ffe;
+}
+
+.btn-outline-primary {
+  color: #754ffe;
+  border-color: #754ffe;
+}
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #754ffe !important;
+  border-color: #754ffe;
+}
+
+#accordian-item:hover {
+  color: #5c5776 !important;
+}
+.popup-youtube{
+  background: url("/Images/course-javascript.8afdeff32816e30422da.jpg") center top / cover no-repeat;
+  width: 100%;
+  height: max-content;
+}
