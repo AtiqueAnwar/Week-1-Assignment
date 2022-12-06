@@ -340,6 +340,7 @@ white-space: unset;
   margin-bottom: -1px;
   padding: 16px 0;
   white-space: nowrap;
+  background-color: #fff;
 }
 .nav-lb-tab a, .nav-lt-tab a {
   cursor: pointer!important;
