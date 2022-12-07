@@ -19,451 +19,413 @@
 <body>
     <div id="root">
         <div class="App">
-            <nav class="bg-white navbar p-2 navbar-default py-2 navbar navbar-expand-lg navbar-light">
-                <div class="px-0 ps-2 container-fluid">
-                    <a class="navbar-brand" href="#"><img src="/Assets/Images/geeks logo.png"></a>
-                    <div class="navbar-nav navbar-right-wrap ms-auto d-lg-none nav-top-wrap d-none">
-                        <div class="mt-2 me-0 dropdown nav-item">
-                            <!-- NOTIFICATIONS DROPDOWN -->
-
-                            <div class="dropdown">
-                                <span class="d-flex">
-                                    <a class="nav-link dropdown float-sm-right float-md-right float-lg-right float-xl-right"
-                                        !important href="#" id="notifydropdown" role="button" data-toggle="dropdown">
-                                        <div class='status-circle-notify'>
-                                        </div>
-                                        <span
-                                            class="text-dark icon-notifications me-lg-1  btn btn-light btn-icon rounded-circle "
-                                            id="notify">
-                                            <i class="fa fa-bell-o">
-                                            </i>
-                                        </span>
-                                    </a>
-                                </span>
-
-                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">
-                                        <div class="d-flex justify-content-between">Notifications<i
-                                                class="fa fa-gear"></i></div>
-                                    </a>
-                                    <hr class="dropdown-divider" role="separator">
-                                    <a class="py-2 px-3 dropdown-item" href="#">
-                                        <div class="d-flex align-items-center">
-                                            <div class="avatar avatar-md  "><img
-                                                    alt="avatar" src="/Assets/Images/p6.jpg" class="avatar rounded-circle"
-                                                    width="40" height="40"></div>
-                                            <div class="ms-3 lh-1">
-                                                <h6 class="mb-0"><strong>Jenny Wilson</strong> </h6>
-                                                <p class="mb-0 fs-6 text-muted">Krisitn Watsan like your comment on <br>
-                                                    course
-                                                    Javascript Introduction!</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <hr class="dropdown-divider" role="separator">
-                                    <a class="py-2 px-3 dropdown-item" href="#">
-                                        <div class="d-flex align-items-center">
-                                            <div class="avatar avatar-md  "><img
-                                                    alt="avatar" src="/Assets/Images/p7.jpg" class="avatar rounded-circle"
-                                                    width="40" height="40"></div>
-                                            <div class="ms-3 lh-1">
-                                                <h6 class="mb-0"><strong>Rina Ray</strong></h6>
-                                                <p class="mb-0 fs-6 text-muted">You earn new certificate for<br>
-                                                    complete the
-                                                    Javascript Beginner<br> course. </p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <hr class="dropdown-divider" role="separator">
-                                    <a class="py-2 px-3 dropdown-item" href="#">
-                                        <div class="d-flex align-items-center">
-                                            <div class="avatar avatar-md  "><img
-                                                    alt="avatar" src="/Assets/Images/p7.jpg" class="avatar rounded-circle"
-                                                    width="40" height="40"></div>
-                                            <div class="ms-3 lh-1">
-                                                <h6 class="mb-0"><strong>Rina Ray</strong></h6>
-                                                <p class="mb-0 fs-6 text-muted">You earn new certificate for<br>
-                                                    complete the
-                                                    Javascript Beginner<br> course. </p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <hr class="dropdown-divider" role="separator">
-                                    <a class="dropdown-item" href="#">
-                                        <div class="d-flex justify-content-between fs-6">See all Notifications</div>
-                                    </a>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="dropdown nav-item">
-                            <!-- PROFILE DROPDOWN -->
-                            <div class="dropdown">
-                                <a class="nav-link dropdown float-sm-right float-md-right float-lg-right float-xl-right"
-                                    href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
-                                    <img src="./Assets/Images/p1.jpg" class="avatar rounded-circle" width="40" height="40"
-                                        alt="">
-                                
-                                </a>
-                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                    <a class="py-2 px-3 dropdown-item" href="#">
-                                        <div class="d-flex align-items-center">
-                                            <div class="avatar avatar-md avatar-indicators2 avatar-online"><img
-                                                    alt="avatar" src="/Assets/Images/p1.jpg" class="avatar rounded-circle"
-                                                    width="40" height="40"></div>
-                                            <div class="ms-3 lh-1">
-                                                <h6 class="mb-0">Annette Black</h6>
-                                                <p class="mb-0 fs-6 text-muted">annette@geeksui.com</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <hr class="dropdown-divider" role="separator">
-                                    <a class="dropdown-item" href="#"><i class="fa fa-user me-2"></i>Profile </a>
-                                    <a class="dropdown-item" href="#"><i class="fa fa-star me-2"></i>Subscription</a>
-                                    <a class="dropdown-item" href="#"><i class="fa fa-gear me-2"></i>Settings</a>
-                                    <hr class="dropdown-divider" role="separator">
-                                    <a class="dropdown-item" href="#"><i class="fa fa-power-off me-2"></i>Signout</a>
-                                </div>
-                            </div>
-
-                        </div>
+      <!-- NAV BAR STARTS HERE -->
+      <nav class="bg-white navbar p-2 navbar-default py-2 navbar navbar-expand-lg navbar-light">
+        <div class="px-0 ps-2 container-fluid">
+          <a class="navbar-brand" href="#"><img src="/Assets/Images/geeks logo.png"></a>
+          <div class="navbar-nav navbar-right-wrap ms-auto d-lg-none nav-top-wrap d-none">
+            <div class="mt-2 me-0 dropdown nav-item">
+              <!-- NOTIFICATIONS DROPDOWN -->
+              <div class="dropdown">
+                <span class="d-flex">
+                  <a class="nav-link dropdown float-sm-right float-md-right float-lg-right float-xl-right" !important
+                    href="#" id="notifydropdown" role="button" data-toggle="dropdown">
+                    <div class='status-circle-notify'>
                     </div>
-                    <div class="d-flex">
-                        <div class="d-lg-none d-md-block">
-                            <span class="d-flex">
-                                <div class="mt-2 me-0 dropdown nav-item">
-                                    <a id="dropdownNotification" aria-expanded="false" role="button" class="text-dark icon-notifications me-lg-1  btn btn-white btn-icon rounded-circle indicator indicator-primary text-muted dt nav-link d-flex justify-content-center align-items-center" tabindex="0" href="#">
-                                        <i class="fa fa-bell-o"></i>
-                                    </a>
-                                    <!-- NOTIFICATIONS DROPDOWN -->
-                                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="#">
-                                            <div class="d-flex justify-content-between">Notifications<i
-                                                    class="fa fa-gear"></i></div>
-                                        </a>
-                                        <hr class="dropdown-divider" role="separator">
-                                        <a class="py-2 px-3 dropdown-item" href="#">
-                                            <div class="d-flex align-items-center">
-                                                <div class="avatar avatar-md  "><img
-                                                        alt="avatar" src="/Assets/Images/p6.jpg" class="avatar rounded-circle"
-                                                        width="40" height="40"></div>
-                                                <div class="ms-3 lh-1">
-                                                    <h6 class="mb-0"><strong>Jenny Wilson</strong> </h6>
-                                                    <p class="mb-0 fs-6 text-muted">Krisitn Watsan like your comment on
-                                                        <br> course
-                                                        Javascript Introduction!
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                        <hr class="dropdown-divider" role="separator">
-                                        <a class="py-2 px-3 dropdown-item" href="#">
-                                            <div class="d-flex align-items-center">
-                                                <div class="avatar avatar-md  "><img
-                                                        alt="avatar" src="/Assets/Images/p7.jpg" class="avatar rounded-circle"
-                                                        width="40" height="40"></div>
-                                                <div class="ms-3 lh-1">
-                                                    <h6 class="mb-0"><strong>Rina Ray</strong></h6>
-                                                    <p class="mb-0 fs-6 text-muted">You earn new certificate for<br>
-                                                        complete the
-                                                        Javascript Beginner<br> course. </p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                        <hr class="dropdown-divider" role="separator">
-                                        <a class="py-2 px-3 dropdown-item" href="#">
-                                            <div class="d-flex align-items-center">
-                                                <div class="avatar avatar-md  "><img
-                                                        alt="avatar" src="/Assets/Images/p7.jpg" class="avatar rounded-circle"
-                                                        width="40" height="40"></div>
-                                                <div class="ms-3 lh-1">
-                                                    <h6 class="mb-0"><strong>Rina Ray</strong></h6>
-                                                    <p class="mb-0 fs-6 text-muted">You earn new certificate for<br>
-                                                        complete the
-                                                        Javascript Beginner<br> course. </p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                        <hr class="dropdown-divider" role="separator">
-                                        <a class="dropdown-item" href="#">
-                                            <div class="d-flex justify-content-between fs-6">See all Notifications</div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="dropdown nav-item">
-                                    <a id="dropdownUser" aria-expanded="false" role="button" class="rounded-circle border-bottom-0 dt nav-link" tabindex="0" href="#">
-                                        <div class="avatar avatar-md avatar-indicators avatar-indicators">
-                                            <img alt="avatar" src="/Assets/Images/p1.jpg" class="rounded-circle" width="40" height="40">
-                                        </div>
-                                    </a>
-                                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                        <a class="py-2 px-3 dropdown-item" href="#">
-                                            <div class="d-flex align-items-center">
-                                                <div class="avatar avatar-md avatar-indicators2 avatar-online"><img
-                                                        alt="avatar" src="/Assets/Images/p1.jpg" class="avatar rounded-circle"
-                                                        width="40" height="40"></div>
-                                                <div class="ms-3 lh-1">
-                                                    <h6 class="mb-0">Annette Black</h6>
-                                                    <p class="mb-0 fs-6 text-muted">annette@geeksui.com</p>
-                                                </div>
-                                            </div>
-                                        </a>
-                                        <hr class="dropdown-divider" role="separator">
-                                        <a class="dropdown-item" href="#"><i class="fa fa-user me-2"></i>Profile </a>
-                                        <a class="dropdown-item" href="#"><i
-                                                class="fa fa-star me-2"></i>Subscription</a>
-                                        <a class="dropdown-item" href="#"><i class="fa fa-gear me-2"></i>Settings</a>
-                                        <hr class="dropdown-divider" role="separator">
-                                        <a class="dropdown-item" href="#"><i
-                                                class="fa fa-power-off me-2"></i>Signout</a>
-                                    </div>
-                                </div>
-                            </span>
-                        </div>
-                        <button aria-controls="basic-navbar-nav" type="button" aria-label="toggle navigation"
-                            class="navbar-toggler collapsed" data-bs-target="#basic-navbar-nav"
-                            data-bs-toggle="collapse" aria-controls="basic-navbar-nav" aria-expanded="false">
-
-                            <span class="navbar-toggler-icon mt-0"></span>
-                        </button>
+                    <span class="text-dark icon-notifications me-lg-1  btn btn-light btn-icon rounded-circle "
+                      id="notify">
+                      <i class="fa fa-bell-o">
+                      </i>
+                    </span>
+                  </a>
+                </span>
+                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex justify-content-between">Notifications<i class="fa fa-gear"></i></div>
+                  </a>
+                  <hr class="dropdown-divider" role="separator">
+                  <a class="py-2 px-3 dropdown-item" href="#">
+                    <div class="d-flex align-items-center">
+                      <div class="avatar avatar-md  "><img alt="avatar" src="/Assets/Images/p6.jpg"
+                          class="avatar rounded-circle" width="40" height="40"></div>
+                      <div class="ms-3 lh-1">
+                        <h6 class="mb-0"><strong>Jenny Wilson</strong> </h6>
+                        <p class="mb-0 fs-6 text-muted">Krisitn Watsan like your comment on <br>
+                          course
+                          Javascript Introduction!</p>
+                      </div>
                     </div>
-                    <div class="navbar-collapse collapse" id="basic-navbar-nav">
-                        <div class="navbar-nav">
-                            <!--Browse class-->
-                            <div class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-toggle="dropdown">
-                                    Browse
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item btn disabled" href="#">Browse</a>
-                                    <a class="dropdown-item" href="#">Design</a>
-                                    <a class="dropdown-item" href="#">Mobile App</a>
-                                    <a class="dropdown-item" href="#">IT Software</a>
-                                    <a class="dropdown-item" href="#">Marketing</a>
-                                    <a class="dropdown-item" href="#">Music</a>
-                                    <a class="dropdown-item" href="#">Life Style</a>
-                                    <a class="dropdown-item" href="#">Buisness</a>
-                                    <a class="dropdown-item" href="#">Photography</a>
-                                </div>
-                            </div>
-                            <!--Landings class-->
-                            <div class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-toggle="dropdown">
-                                    Landings
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item btn disabled" href="#">Landings</a>
-                                    <a class="dropdown-item" href="#">Courses</a>
-                                    <a class="dropdown-item" href="#">Lead Courses</a>
-                                    <a class="dropdown-item" href="#">Request Access</a>
-                                    <a class="dropdown-item" href="#">Saas</a>
-                                </div>
-                            </div>
-                            <!--Pages class-->
-                            <div class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-toggle="dropdown">
-                                    Pages
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item btn disabled" href="#">Pages</a>
-                                    <a class="dropdown-item" href="#">Courses</a>
-                                    <a class="dropdown-item" href="#">Paths</a>
-                                    <a class="dropdown-item" href="#">Blog</a>
-                                    <a class="dropdown-item" href="#">Career</a>
-                                    <a class="dropdown-item" href="#">Speciality</a>
-                                    <hr>
-                                    <a class="dropdown-item" href="#">About</a>
-                                    <a class="dropdown-item" href="#">Help Center <span class="badge">New
-                                        </span>
-                                    </a>
-                                    <a class="dropdown-item" href="#">Pricing</a>
-                                    <a class="dropdown-item" href="#">Compare Plan</a>
-                                    <a class="dropdown-item" href="#">Contact</a>
-                                </div>
-                            </div>
-                            <!--Accounts class-->
-                            <div class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-toggle="dropdown">
-                                    Accounts
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item btn disabled" href="#">Accounts</a>
-                                    <a class="dropdown-item" href="#">Instructor</a>
-                                    <a class="dropdown-item" href="#">Students</a>
-                                    <a class="dropdown-item" href="#">Admin</a>
-                                    <hr>
-                                    <a class="dropdown-item" href="#">Sign In</a>
-                                    <a class="dropdown-item" href="#">Sign Up</a>
-                                    <a class="dropdown-item" href="#">Forgot Password</a>
-                                    <a class="dropdown-item" href="#">Edit Profile</a>
-                                    <a class="dropdown-item" href="#">Security</a>
-                                    <a class="dropdown-item" href="#">Social Profiles</a>
-                                    <a class="dropdown-item" href="#">Notifications</a>
-                                    <a class="dropdown-item" href="#">Privacy Settings</a>
-                                    <a class="dropdown-item" href="#">Delete Profile</a>
-                                    <a class="dropdown-item" href="#">Linked Accounts</a>
-                                </div>
-                            </div>
-                            <!--Dots Dropdown-->
-                            <div class="nav-item dropdown">
-                                <a class=" nav-link dropdown lh-1" href="#" id="navbarDropdown" data-toggle="dropdown">
-                                    <b>...</b>
-                                </a>
-                                <div class="dropdown-menu">
-                                    <a class="py-2 px-3 dropdown-item" href="#">
-                                        <div class="d-flex align-items-center">
-
-                                            <div>
-                                                <h6 class="mb-0">Documentations</h6>
-                                                <p class="mb-0 fs-6">Browse all the Documentations</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a class="py-2 px-3 dropdown-item" href="#">
-                                        <div class="d-flex align-items-center">
-                                            <div>
-                                                <h6 class="mb-0">Changelog v1.4.0</h6>
-                                                <p class="mb-0 fs-6">See Whats's new</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="d-flex justify-content-between w-100">
-                            <form class="mt-3 mt-lg-0 ms-lg-4 d-flex align-items-center">
-                                <input placeholder="Search Courses" type="Search" id="formSearch" class=" form-control">
-                                <span class="position-absolute search icon ps-3">
-                                    <i class="fa fa-search"></i>
-                                </span>
-                            </form>
-                            <div class="d-none d-lg-block d-sm-none">
-
-                                <span class="d-flex">
-                                    <div class="mt-2 me-0 dropdown nav-item">
-                                        <a id="dropdownNotification" aria-expanded="false" role="button" class="text-dark icon-notifications me-lg-1  btn btn-white btn-icon rounded-circle indicator indicator-primary text-muted dt nav-link d-flex justify-content-center align-items-center" tabindex="0" href="#">
-                                            <i class="fa fa-bell-o"></i>
-                                        </a>
-                                        <!-- <a class="text-dark icon-notifications me-lg-1  btn btn-light btn-icon rounded-circle indicator indicator-primary text-muted dt nav-link"
-                                            !important href="#" id="notifydropdown" role="button"
-                                            data-toggle="dropdown">
-                                            <div class='status-circle-notify'>
-                                            </div>
-                                            <span
-                                                class="text-dark icon-notifications me-lg-1  btn btn-light btn-icon rounded-circle "
-                                                id="notify">
-                                                <i class="fa fa-bell-o">
-                                                </i>
-                                            </span> -->
-                                        </a>
-                                        <!-- NOTIFICATIONS DROPDOWN -->
-                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="#">
-                                                <div class="d-flex justify-content-between">Notifications<i
-                                                        class="fa fa-gear"></i></div>
-                                            </a>
-                                            <hr class="dropdown-divider" role="separator">
-                                            <a class="py-2 px-3 dropdown-item" href="#">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="avatar avatar-md  "><img
-                                                            alt="avatar" src="/Assets/Images/p6.jpg"
-                                                            class="avatar rounded-circle" width="40" height="40"></div>
-                                                    <div class="ms-3 lh-1">
-                                                        <h6 class="mb-0"><strong>Jenny Wilson</strong> </h6>
-                                                        <p class="mb-0 fs-6 text-muted">Krisitn Watsan like your comment
-                                                            on
-                                                            <br> course
-                                                            Javascript Introduction!
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <hr class="dropdown-divider" role="separator">
-                                            <a class="py-2 px-3 dropdown-item" href="#">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="avatar avatar-md  "><img
-                                                            alt="avatar" src="/Assets/Images/p7.jpg"
-                                                            class="avatar rounded-circle" width="40" height="40"></div>
-                                                    <div class="ms-3 lh-1">
-                                                        <h6 class="mb-0"><strong>Rina Ray</strong></h6>
-                                                        <p class="mb-0 fs-6 text-muted">You earn new certificate for<br>
-                                                            complete the
-                                                            Javascript Beginner<br> course. </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <hr class="dropdown-divider" role="separator">
-                                            <a class="py-2 px-3 dropdown-item" href="#">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="avatar avatar-md  "><img
-                                                            alt="avatar" src="/Assets/Images/p7.jpg"
-                                                            class="avatar rounded-circle" width="40" height="40"></div>
-                                                    <div class="ms-3 lh-1">
-                                                        <h6 class="mb-0"><strong>Rina Ray</strong></h6>
-                                                        <p class="mb-0 fs-6 text-muted">You earn new certificate for<br>
-                                                            complete the
-                                                            Javascript Beginner<br> course. </p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <hr class="dropdown-divider" role="separator">
-                                            <a class="dropdown-item" href="#">
-                                                <div class="d-flex justify-content-between fs-6">See all Notifications
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="dropdown nav-item">
-                                        <a id="dropdownUser" aria-expanded="false" role="button" class="rounded-circle border-bottom-0 dt nav-link" tabindex="0" href="#">
-                                            <div class="avatar avatar-md avatar-indicators avatar-indicators">
-                                                <img alt="avatar" src="/Assets/Images/p1.jpg" class="rounded-circle" width="40" height="40">
-                                            </div>
-                                        </a>
-                                        <!-- <a class="nav-link dropdown float-sm-right float-md-right float-lg-right float-xl-right"
-                                            href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
-                                            <img src="./Assets/Images/p1.jpg" class="avatar rounded-circle" width="40"
-                                                height="40" alt="">
-                                            <div class='status-circle-online'>
-                                            </div>
-                                        </a> -->
-                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                            <a class="py-2 px-3 dropdown-item" href="#">
-                                                <div class="d-flex align-items-center">
-                                                    <div class="avatar avatar-md avatar-indicators2 avatar-online"><img
-                                                            alt="avatar" src="/Assets/Images/p1.jpg"
-                                                            class="avatar rounded-circle" width="40" height="40"></div>
-                                                    <div class="ms-3 lh-1">
-                                                        <h6 class="mb-0">Annette Black</h6>
-                                                        <p class="mb-0 fs-6 text-muted">annette@geeksui.com</p>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <hr class="dropdown-divider" role="separator">
-                                            <a class="dropdown-item" href="#"><i class="fa fa-user me-2"></i>Profile
-                                            </a>
-                                            <a class="dropdown-item" href="#"><i
-                                                    class="fa fa-star me-2"></i>Subscription</a>
-                                            <a class="dropdown-item" href="#"><i
-                                                    class="fa fa-gear me-2"></i>Settings</a>
-                                            <hr class="dropdown-divider" role="separator">
-                                            <a class="dropdown-item" href="#"><i
-                                                    class="fa fa-power-off me-2"></i>Signout</a>
-                                        </div>
-                                    </div>
-                                </span>
-                            </div>
-                        </div>
+                  </a>
+                  <hr class="dropdown-divider" role="separator">
+                  <a class="py-2 px-3 dropdown-item" href="#">
+                    <div class="d-flex align-items-center">
+                      <div class="avatar avatar-md  "><img alt="avatar" src="/Assets/Images/p7.jpg"
+                          class="avatar rounded-circle" width="40" height="40"></div>
+                      <div class="ms-3 lh-1">
+                        <h6 class="mb-0"><strong>Rina Ray</strong></h6>
+                        <p class="mb-0 fs-6 text-muted">You earn new certificate for<br>
+                          complete the
+                          Javascript Beginner<br> course. </p>
+                      </div>
                     </div>
-
-
+                  </a>
+                  <hr class="dropdown-divider" role="separator">
+                  <a class="py-2 px-3 dropdown-item" href="#">
+                    <div class="d-flex align-items-center">
+                      <div class="avatar avatar-md  "><img alt="avatar" src="/Assets/Images/p7.jpg"
+                          class="avatar rounded-circle" width="40" height="40"></div>
+                      <div class="ms-3 lh-1">
+                        <h6 class="mb-0"><strong>Rina Ray</strong></h6>
+                        <p class="mb-0 fs-6 text-muted">You earn new certificate for<br>
+                          complete the
+                          Javascript Beginner<br> course. </p>
+                      </div>
+                    </div>
+                  </a>
+                  <hr class="dropdown-divider" role="separator">
+                  <a class="dropdown-item" href="#">
+                    <div class="d-flex justify-content-between fs-6">See all Notifications</div>
+                  </a>
                 </div>
-            </nav>
+              </div>
+
+            </div>
+            <div class="dropdown nav-item">
+              <!-- PROFILE DROPDOWN -->
+              <div class="dropdown">
+                <a class="nav-link dropdown float-sm-right float-md-right float-lg-right float-xl-right" href="#"
+                  id="navbarDropdown" role="button" data-toggle="dropdown">
+                  <img src="./Assets/Images/p1.jpg" class="avatar rounded-circle" width="40" height="40" alt="">
+
+                </a>
+                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                  <a class="py-2 px-3 dropdown-item" href="#">
+                    <div class="d-flex align-items-center">
+                      <div class="avatar avatar-md avatar-indicators2 avatar-online"><img alt="avatar"
+                          src="/Assets/Images/p1.jpg" class="avatar rounded-circle" width="40" height="40"></div>
+                      <div class="ms-3 lh-1">
+                        <h6 class="mb-0">Annette Black</h6>
+                        <p class="mb-0 fs-6 text-muted">annette@geeksui.com</p>
+                      </div>
+                    </div>
+                  </a>
+                  <hr class="dropdown-divider" role="separator">
+                  <a class="dropdown-item" href="#"><i class="fa fa-user me-2"></i>Profile </a>
+                  <a class="dropdown-item" href="#"><i class="fa fa-star me-2"></i>Subscription</a>
+                  <a class="dropdown-item" href="#"><i class="fa fa-gear me-2"></i>Settings</a>
+                  <hr class="dropdown-divider" role="separator">
+                  <a class="dropdown-item" href="#"><i class="fa fa-power-off me-2"></i>Signout</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--TOGGLE DROPDOWN ON SMALL SCREENS -->
+          <div class="d-flex">
+            <div class="d-lg-none d-md-block">
+              <span class="d-flex">
+                <div class="mt-2 me-0 dropdown nav-item">
+                  <a id="dropdownNotification" aria-expanded="false" role="button"
+                    class="text-dark icon-notifications me-lg-1  btn btn-white btn-icon rounded-circle indicator indicator-primary text-muted dt nav-link d-flex justify-content-center align-items-center"
+                    tabindex="0" href="#">
+                    <i class="fa fa-bell-o"></i>
+                  </a>
+                  <!-- NOTIFICATIONS DROPDOWN -->
+                  <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">
+                      <div class="d-flex justify-content-between">Notifications<i class="fa fa-gear"></i></div>
+                    </a>
+                    <hr class="dropdown-divider" role="separator">
+                    <a class="py-2 px-3 dropdown-item" href="#">
+                      <div class="d-flex align-items-center">
+                        <div class="avatar avatar-md  "><img alt="avatar" src="/Assets/Images/p6.jpg"
+                            class="avatar rounded-circle" width="40" height="40"></div>
+                        <div class="ms-3 lh-1">
+                          <h6 class="mb-0"><strong>Jenny Wilson</strong> </h6>
+                          <p class="mb-0 fs-6 text-muted">Krisitn Watsan like your comment on
+                            <br> course
+                            Javascript Introduction!
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                    <hr class="dropdown-divider" role="separator">
+                    <a class="py-2 px-3 dropdown-item" href="#">
+                      <div class="d-flex align-items-center">
+                        <div class="avatar avatar-md  "><img alt="avatar" src="/Assets/Images/p7.jpg"
+                            class="avatar rounded-circle" width="40" height="40"></div>
+                        <div class="ms-3 lh-1">
+                          <h6 class="mb-0"><strong>Rina Ray</strong></h6>
+                          <p class="mb-0 fs-6 text-muted">You earn new certificate for<br>
+                            complete the
+                            Javascript Beginner<br> course. </p>
+                        </div>
+                      </div>
+                    </a>
+                    <hr class="dropdown-divider" role="separator">
+                    <a class="py-2 px-3 dropdown-item" href="#">
+                      <div class="d-flex align-items-center">
+                        <div class="avatar avatar-md  "><img alt="avatar" src="/Assets/Images/p7.jpg"
+                            class="avatar rounded-circle" width="40" height="40"></div>
+                        <div class="ms-3 lh-1">
+                          <h6 class="mb-0"><strong>Rina Ray</strong></h6>
+                          <p class="mb-0 fs-6 text-muted">You earn new certificate for<br>
+                            complete the
+                            Javascript Beginner<br> course. </p>
+                        </div>
+                      </div>
+                    </a>
+                    <hr class="dropdown-divider" role="separator">
+                    <a class="dropdown-item" href="#">
+                      <div class="d-flex justify-content-between fs-6">See all Notifications</div>
+                    </a>
+                  </div>
+                </div>
+                <div class="dropdown nav-item">
+                  <a id="dropdownUser" aria-expanded="false" role="button"
+                    class="rounded-circle border-bottom-0 dt nav-link" tabindex="0" href="#">
+                    <div class="avatar avatar-md avatar-indicators avatar-indicators">
+                      <img alt="avatar" src="/Assets/Images/p1.jpg" class="rounded-circle" width="40" height="40">
+                    </div>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <a class="py-2 px-3 dropdown-item" href="#">
+                      <div class="d-flex align-items-center">
+                        <div class="avatar avatar-md avatar-indicators2 avatar-online"><img alt="avatar"
+                            src="/Assets/Images/p1.jpg" class="avatar rounded-circle" width="40" height="40"></div>
+                        <div class="ms-3 lh-1">
+                          <h6 class="mb-0">Annette Black</h6>
+                          <p class="mb-0 fs-6 text-muted">annette@geeksui.com</p>
+                        </div>
+                      </div>
+                    </a>
+                    <hr class="dropdown-divider" role="separator">
+                    <a class="dropdown-item" href="#"><i class="fa fa-user me-2"></i>Profile </a>
+                    <a class="dropdown-item" href="#"><i class="fa fa-star me-2"></i>Subscription</a>
+                    <a class="dropdown-item" href="#"><i class="fa fa-gear me-2"></i>Settings</a>
+                    <hr class="dropdown-divider" role="separator">
+                    <a class="dropdown-item" href="#"><i class="fa fa-power-off me-2"></i>Signout</a>
+                  </div>
+                </div>
+              </span>
+            </div>
+            <button aria-controls="basic-navbar-nav" type="button" aria-label="toggle navigation"
+              class="navbar-toggler collapsed" data-bs-target="#basic-navbar-nav" data-bs-toggle="collapse"
+              aria-controls="basic-navbar-nav" aria-expanded="false">
+
+              <span class="navbar-toggler-icon mt-0"></span>
+            </button>
+          </div>
+          <div class="navbar-collapse collapse" id="basic-navbar-nav">
+            <div class="navbar-nav">
+              <!--Browse class-->
+              <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                  Browse
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item btn disabled" href="#">Browse</a>
+                  <a class="dropdown-item" href="#">Design</a>
+                  <a class="dropdown-item" href="#">Mobile App</a>
+                  <a class="dropdown-item" href="#">IT Software</a>
+                  <a class="dropdown-item" href="#">Marketing</a>
+                  <a class="dropdown-item" href="#">Music</a>
+                  <a class="dropdown-item" href="#">Life Style</a>
+                  <a class="dropdown-item" href="#">Buisness</a>
+                  <a class="dropdown-item" href="#">Photography</a>
+                </div>
+              </div>
+              <!--Landings class-->
+              <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                  Landings
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item btn disabled" href="#">Landings</a>
+                  <a class="dropdown-item" href="#">Courses</a>
+                  <a class="dropdown-item" href="#">Lead Courses</a>
+                  <a class="dropdown-item" href="#">Request Access</a>
+                  <a class="dropdown-item" href="#">Saas</a>
+                </div>
+              </div>
+              <!--Pages class-->
+              <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                  Pages
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item btn disabled" href="#">Pages</a>
+                  <a class="dropdown-item" href="#">Courses</a>
+                  <a class="dropdown-item" href="#">Paths</a>
+                  <a class="dropdown-item" href="#">Blog</a>
+                  <a class="dropdown-item" href="#">Career</a>
+                  <a class="dropdown-item" href="#">Speciality</a>
+                  <hr>
+                  <a class="dropdown-item" href="#">About</a>
+                  <a class="dropdown-item" href="#">Help Center <span class="badge bg-primary">New
+                    </span>
+                  </a>
+                  <a class="dropdown-item" href="#">Pricing</a>
+                  <a class="dropdown-item" href="#">Compare Plan</a>
+                  <a class="dropdown-item" href="#">Contact</a>
+                </div>
+              </div>
+              <!--Accounts class-->
+              <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                  Accounts
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item btn disabled" href="#">Accounts</a>
+                  <a class="dropdown-item" href="#">Instructor</a>
+                  <a class="dropdown-item" href="#">Students</a>
+                  <a class="dropdown-item" href="#">Admin</a>
+                  <hr>
+                  <a class="dropdown-item" href="#">Sign In</a>
+                  <a class="dropdown-item" href="#">Sign Up</a>
+                  <a class="dropdown-item" href="#">Forgot Password</a>
+                  <a class="dropdown-item" href="#">Edit Profile</a>
+                  <a class="dropdown-item" href="#">Security</a>
+                  <a class="dropdown-item" href="#">Social Profiles</a>
+                  <a class="dropdown-item" href="#">Notifications</a>
+                  <a class="dropdown-item" href="#">Privacy Settings</a>
+                  <a class="dropdown-item" href="#">Delete Profile</a>
+                  <a class="dropdown-item" href="#">Linked Accounts</a>
+                </div>
+              </div>
+              <!--Dots Dropdown-->
+              <div class="nav-item dropdown">
+                <a class=" nav-link dropdown lh-1" href="#" id="navbarDropdown" data-toggle="dropdown">
+                  <b>...</b>
+                </a>
+                <div class="dropdown-menu">
+                  <a class="py-2 px-3 dropdown-item" href="#">
+                    <div class="d-flex align-items-center">
+                      <i class="fa fa-file-text-o fs-5 text-primary"></i>
+                      <div class="ms-3 lh-3">
+                        <h6 class="mb-0">Documentations</h6>
+                        <p class="mb-0 fs-6">Browse all the Documentations</p>
+                      </div>
+                    </div>
+                  </a>
+                  <a class="py-2 px-3 dropdown-item" href="#">
+                    <div class="d-flex align-items-center">
+                      <i class="fa fa-file-archive-o fs-5 text-primary"></i>
+                      <div class="ms-3 lh-3">
+                        <h6 class="mb-0">Changelog v1.4.0</h6>
+                        <p class="mb-0 fs-6">See Whats's new</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between w-100">
+              <!-- Search Form -->
+              <form class="mt-3 mt-lg-0 ms-lg-4 d-flex align-items-center">
+                <input placeholder="Search Courses" type="Search" id="formSearch" class=" form-control">
+                <span class="position-absolute search icon ps-3">
+                  <i class="fa fa-search"></i>
+                </span>
+              </form>
+              <div class="d-none d-lg-block d-sm-none">
+                <span class="d-flex">
+                  <div class="mt-2 me-0 dropdown nav-item">
+                    <a id="dropdownNotification" aria-expanded="false" role="button"
+                      class="text-dark icon-notifications me-lg-1  btn btn-white btn-icon rounded-circle indicator indicator-primary text-muted dt nav-link d-flex justify-content-center align-items-center"
+                      tabindex="0" href="#">
+                      <i class="fa fa-bell-o"></i>
+                    </a>
+                    </a>
+                    <!-- NOTIFICATIONS Menu -->
+                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">
+                        <div class="d-flex justify-content-between">Notifications<i class="fa fa-gear"></i></div>
+                      </a>
+                      <hr class="dropdown-divider" role="separator">
+                      <a class="py-2 px-3 dropdown-item" href="#">
+                        <div class="d-flex align-items-center">
+                          <div class="avatar avatar-md  "><img alt="avatar" src="/Assets/Images/p6.jpg"
+                              class="avatar rounded-circle" width="40" height="40"></div>
+                          <div class="ms-3 lh-1">
+                            <h6 class="mb-0"><strong>Jenny Wilson</strong> </h6>
+                            <p class="mb-0 fs-6 text-muted">Krisitn Watsan like your comment
+                              on
+                              <br> course
+                              Javascript Introduction!
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                      <hr class="dropdown-divider" role="separator">
+                      <a class="py-2 px-3 dropdown-item" href="#">
+                        <div class="d-flex align-items-center">
+                          <div class="avatar avatar-md  "><img alt="avatar" src="/Assets/Images/p7.jpg"
+                              class="avatar rounded-circle" width="40" height="40"></div>
+                          <div class="ms-3 lh-1">
+                            <h6 class="mb-0"><strong>Rina Ray</strong></h6>
+                            <p class="mb-0 fs-6 text-muted">You earn new certificate for<br>
+                              complete the
+                              Javascript Beginner<br> course. </p>
+                          </div>
+                        </div>
+                      </a>
+                      <hr class="dropdown-divider" role="separator">
+                      <a class="py-2 px-3 dropdown-item" href="#">
+                        <div class="d-flex align-items-center">
+                          <div class="avatar avatar-md  "><img alt="avatar" src="/Assets/Images/p7.jpg"
+                              class="avatar rounded-circle" width="40" height="40"></div>
+                          <div class="ms-3 lh-1">
+                            <h6 class="mb-0"><strong>Rina Ray</strong></h6>
+                            <p class="mb-0 fs-6 text-muted">You earn new certificate for<br>
+                              complete the
+                              Javascript Beginner<br> course. </p>
+                          </div>
+                        </div>
+                      </a>
+                      <hr class="dropdown-divider" role="separator">
+                      <a class="dropdown-item" href="#">
+                        <div class="d-flex justify-content-between fs-6">See all Notifications
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- Profile Menu -->
+                  <div class="dropdown nav-item">
+                    <a id="dropdownUser" aria-expanded="false" role="button"
+                      class="rounded-circle border-bottom-0 dt nav-link" tabindex="0" href="#">
+                      <div class="avatar avatar-md avatar-indicators avatar-indicators">
+                        <img alt="avatar" src="/Assets/Images/p1.jpg" class="rounded-circle" width="40" height="40">
+                      </div>
+                    </a>
+
+                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                      <a class="py-2 px-3 dropdown-item" href="#">
+                        <div class="d-flex align-items-center">
+                          <div class="avatar avatar-md avatar-indicators2 avatar-online"><img alt="avatar"
+                              src="/Assets/Images/p1.jpg" class="avatar rounded-circle" width="40" height="40"></div>
+                          <div class="ms-3 lh-1">
+                            <h6 class="mb-0">Annette Black</h6>
+                            <p class="mb-0 fs-6 text-muted">annette@geeksui.com</p>
+                          </div>
+                        </div>
+                      </a>
+                      <hr class="dropdown-divider" role="separator">
+                      <a class="dropdown-item" href="#"><i class="fa fa-user me-2"></i>Profile
+                      </a>
+                      <a class="dropdown-item" href="#"><i class="fa fa-star me-2"></i>Subscription</a>
+                      <a class="dropdown-item" href="#"><i class="fa fa-gear me-2"></i>Settings</a>
+                      <hr class="dropdown-divider" role="separator">
+                      <a class="dropdown-item" href="#"><i class="fa fa-power-off me-2"></i>Signout</a>
+                    </div>
+                  </div>
+                </span>
+              </div>
+            </div>
+          </div>
 
 
+        </div>
+      </nav>
             <!--HEADER STARTS-->
             <div class="bg-primary">
 
@@ -485,13 +447,11 @@
                     </div>
                 </div>
             </div>
-
-
         <!--BELOW HEADER CONTENT-->
         <div class="bg-white py-4 shadow-sm">
             <div class="container">
                 <div class="align-items-center g-0 row">
-                    <div class="mb-lg-0 mb-4 col-xl-4 col-lg-4 col-md-6">
+                    <div class="mb-lg-0 mb-xs-4 mb-lg-4 mb-md-4 mb-sm-4 col-xl-4 col-lg-4 col-md-6">
                         <div class="d-flex align-items-center">
                             <span class="icon-shape icon-lg bg-light-warning rounded-circle text-center text-dark-warning fs-6" id="text">
                                 <i class="fa fa-video-camera"></i>
@@ -502,7 +462,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mb-lg-0 mb-4 col-xl-4 col-lg-4 col-md-6">
+                    <div class="mb-lg-0 mb-xs-4 mb-lg-4 mb-md-4 mb-sm-4 col-xl-4 col-lg-4 col-md-6">
                         <div class="d-flex align-items-center">
                             <span class="icon-shape icon-lg bg-light-warning rounded-circle text-center text-dark-warning fs-6" id="text">
                                 <i class="fa fa-user-o"></i>
@@ -514,7 +474,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mb-lg-0 mb-4 col-xl-4 col-lg-4 col-md-6">
+                    <div class="mb-lg-0 mb-xs-4 mb-lg-4 mb-md-4 mb-sm-4 col-xl-4 col-lg-4 col-md-6">
                         <div class="d-flex align-items-center">
                             <span class="icon-shape icon-lg bg-light-warning rounded-circle text-center text-dark-warning fs-6" id="text">
                                 <i class="fa fa-clock-o"></i>
@@ -542,7 +502,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="card-deck hover-zoom pb-5">
                             <a href="./courses.html">
                                 <div class="card">
@@ -593,7 +553,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="card-deck pb-5">
                             <a href="./courses.html">
                                 <div class="card">
@@ -643,7 +603,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="card-deck pb-5">
                             <a href="./courses.html">
                                 <div class="card">
@@ -695,7 +655,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="card-deck pb-5">
                             <a href="./courses.html">
                                 <div class="card">
@@ -760,7 +720,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="card-deck hover-zoom pb-5">
                             <a href="./courses.html">
                                 <div class="card">
@@ -811,7 +771,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="card-deck pb-5">
                             <a href="./courses.html">
                                 <div class="card">
@@ -861,7 +821,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="card-deck pb-5">
                             <a href="./courses.html">
                                 <div class="card">
@@ -913,7 +873,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="card-deck pb-5">
                             <a href="./courses.html">
                                 <div class="card">
@@ -978,7 +938,7 @@
                         </div>
         
                         <div class="row">
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck hover-zoom pb-5">
                                     <a href="./courses.html">
                                         <div class="card">
@@ -1029,7 +989,7 @@
                                 </div>
                             </div>
         
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck pb-5">
                                     <a href="./courses.html">
                                         <div class="card">
@@ -1079,7 +1039,7 @@
                                 </div>
                             </div>
         
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck pb-5">
                                     <a href="./courses.html">
                                         <div class="card">
@@ -1131,7 +1091,7 @@
                                 </div>
                             </div>
         
-                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+                            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                                 <div class="card-deck pb-5">
                                     <a href="./courses.html">
                                         <div class="card">
