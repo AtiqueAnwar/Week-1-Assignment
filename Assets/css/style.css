@@ -12,7 +12,9 @@ body {
   .bg-primary{
     background-color: #754ffe !important;
   }
-  
+  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: #18113c;
+}
   /* Navbar adjustments */
   .navbar-light .navbar-nav .nav-link {
     color: #18113c !important;
@@ -216,11 +218,23 @@ border-width: 1px;
 .pt-lg-12{
   padding-top: 5.5rem !important;
 }
+.pb-lg-3 {
+    padding-bottom: 1rem!important;
+}
 .pb-6{
   padding-bottom: 2.5rem !important;
 }
 .pt-8{
   padding-top: 3.5rem ;
+}
+.pb-lg-8 {
+  padding-bottom: 3.5rem!important;
+}
+.mt-n1 {
+  margin-top: -.25rem!important;
+}
+a:hover {
+  color: #754ffe;
 }
 /* cards avatar */
 #tutor {
@@ -231,6 +245,12 @@ border-width: 1px;
 .card {
   border-radius: 10px;
     box-shadow: 0 1px 3px rgba(3,0,71,.09);
+}
+.card-shadow:focus, .card-shadow:hover {
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -2px rgba(0,0,0,.05);
+}
+.card-shadow {
+  transition: box-shadow .25s ease;
 }
 .card-body {
   color: var(--bs-card-color);
